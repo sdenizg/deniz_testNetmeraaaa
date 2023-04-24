@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10819FDC593369D301EA02E5 /* Pods_deniz_testNetmera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B632E2A57C6D410C63C8BD8 /* Pods_deniz_testNetmera.framework */; };
+		8D5E2CD929E54090001E4414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E2CD829E54090001E4414 /* AppDelegate.swift */; };
+		8D5E2CDB29E54090001E4414 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E2CDA29E54090001E4414 /* SceneDelegate.swift */; };
+		8D5E2CDD29E54090001E4414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E2CDC29E54090001E4414 /* ViewController.swift */; };
+		8D5E2CE029E54090001E4414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E2CDE29E54090001E4414 /* Main.storyboard */; };
+		8D5E2CE229E54091001E4414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E2CE129E54091001E4414 /* Assets.xcassets */; };
+		8D5E2CE529E54091001E4414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E2CE329E54091001E4414 /* LaunchScreen.storyboard */; };
+		8D94710E29EFFD1800F24411 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D94710D29EFFD1800F24411 /* NotificationService.swift */; };
+		8D94711229EFFD1800F24411 /* myNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8D94710B29EFFD1800F24411 /* myNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AFF91332D9A14547ABCFB6D0 /* Pods_myNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B7E5BB74A8D861397A776D /* Pods_myNotificationServiceExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D94711029EFFD1800F24411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D5E2CCD29E54090001E4414 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D94710A29EFFD1800F24411;
+			remoteInfo = myNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D94711329EFFD1800F24411 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8D94711229EFFD1800F24411 /* myNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03B7E5BB74A8D861397A776D /* Pods_myNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA3A5C15E68CC37035E9CF8 /* Pods-deniz_testNetmera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deniz_testNetmera.release.xcconfig"; path = "Target Support Files/Pods-deniz_testNetmera/Pods-deniz_testNetmera.release.xcconfig"; sourceTree = "<group>"; };
+		3B632E2A57C6D410C63C8BD8 /* Pods_deniz_testNetmera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_deniz_testNetmera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F367A56987C3AFE2423A336 /* Pods-myNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-myNotificationServiceExtension/Pods-myNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		8D5E2CD529E54090001E4414 /* deniz_testNetmera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deniz_testNetmera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5E2CD829E54090001E4414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D5E2CDA29E54090001E4414 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8D5E2CDC29E54090001E4414 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D5E2CDF29E54090001E4414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D5E2CE129E54091001E4414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D5E2CE429E54091001E4414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D5E2CE629E54091001E4414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5E2CEC29E546F3001E4414 /* deniz_testNetmera.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = deniz_testNetmera.entitlements; sourceTree = "<group>"; };
+		8D94710B29EFFD1800F24411 /* myNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = myNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D94710D29EFFD1800F24411 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		8D94710F29EFFD1800F24411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCE04F9CE330089C8F3B36E /* Pods-deniz_testNetmera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deniz_testNetmera.debug.xcconfig"; path = "Target Support Files/Pods-deniz_testNetmera/Pods-deniz_testNetmera.debug.xcconfig"; sourceTree = "<group>"; };
+		9F99F92AB5D4B49878CBDC91 /* Pods-myNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-myNotificationServiceExtension/Pods-myNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5E2CD229E54090001E4414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10819FDC593369D301EA02E5 /* Pods_deniz_testNetmera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D94710829EFFD1800F24411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF91332D9A14547ABCFB6D0 /* Pods_myNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09BD9ABE64BC1FBB15DF91AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B632E2A57C6D410C63C8BD8 /* Pods_deniz_testNetmera.framework */,
+				03B7E5BB74A8D861397A776D /* Pods_myNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D5E2CCC29E54090001E4414 = {
+			isa = PBXGroup;
+			children = (
+				8D5E2CD729E54090001E4414 /* deniz_testNetmera */,
+				8D94710C29EFFD1800F24411 /* myNotificationServiceExtension */,
+				8D5E2CD629E54090001E4414 /* Products */,
+				ED7C01840220DFCF8E702AA0 /* Pods */,
+				09BD9ABE64BC1FBB15DF91AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D5E2CD629E54090001E4414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5E2CD529E54090001E4414 /* deniz_testNetmera.app */,
+				8D94710B29EFFD1800F24411 /* myNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D5E2CD729E54090001E4414 /* deniz_testNetmera */ = {
+			isa = PBXGroup;
+			children = (
+				8D5E2CEC29E546F3001E4414 /* deniz_testNetmera.entitlements */,
+				8D5E2CD829E54090001E4414 /* AppDelegate.swift */,
+				8D5E2CDA29E54090001E4414 /* SceneDelegate.swift */,
+				8D5E2CDC29E54090001E4414 /* ViewController.swift */,
+				8D5E2CDE29E54090001E4414 /* Main.storyboard */,
+				8D5E2CE129E54091001E4414 /* Assets.xcassets */,
+				8D5E2CE329E54091001E4414 /* LaunchScreen.storyboard */,
+				8D5E2CE629E54091001E4414 /* Info.plist */,
+			);
+			path = deniz_testNetmera;
+			sourceTree = "<group>";
+		};
+		8D94710C29EFFD1800F24411 /* myNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				8D94710D29EFFD1800F24411 /* NotificationService.swift */,
+				8D94710F29EFFD1800F24411 /* Info.plist */,
+			);
+			path = myNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		ED7C01840220DFCF8E702AA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FCE04F9CE330089C8F3B36E /* Pods-deniz_testNetmera.debug.xcconfig */,
+				0FA3A5C15E68CC37035E9CF8 /* Pods-deniz_testNetmera.release.xcconfig */,
+				9F99F92AB5D4B49878CBDC91 /* Pods-myNotificationServiceExtension.debug.xcconfig */,
+				5F367A56987C3AFE2423A336 /* Pods-myNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5E2CD429E54090001E4414 /* deniz_testNetmera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D5E2CE929E54091001E4414 /* Build configuration list for PBXNativeTarget "deniz_testNetmera" */;
+			buildPhases = (
+				E11AF08479341F23328705C5 /* [CP] Check Pods Manifest.lock */,
+				8D5E2CD129E54090001E4414 /* Sources */,
+				8D5E2CD229E54090001E4414 /* Frameworks */,
+				8D5E2CD329E54090001E4414 /* Resources */,
+				CE9D235EF7F1C4F94A41DBB2 /* [CP] Embed Pods Frameworks */,
+				8D94711329EFFD1800F24411 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D94711129EFFD1800F24411 /* PBXTargetDependency */,
+			);
+			name = deniz_testNetmera;
+			productName = deniz_testNetmera;
+			productReference = 8D5E2CD529E54090001E4414 /* deniz_testNetmera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D94710A29EFFD1800F24411 /* myNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D94711629EFFD1800F24411 /* Build configuration list for PBXNativeTarget "myNotificationServiceExtension" */;
+			buildPhases = (
+				73D8A288FD6B1C4AC4E4065C /* [CP] Check Pods Manifest.lock */,
+				8D94710729EFFD1800F24411 /* Sources */,
+				8D94710829EFFD1800F24411 /* Frameworks */,
+				8D94710929EFFD1800F24411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myNotificationServiceExtension;
+			productName = myNotificationServiceExtension;
+			productReference = 8D94710B29EFFD1800F24411 /* myNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D5E2CCD29E54090001E4414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8D5E2CD429E54090001E4414 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8D94710A29EFFD1800F24411 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 8D5E2CD029E54090001E4414 /* Build configuration list for PBXProject "deniz_testNetmera" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D5E2CCC29E54090001E4414;
+			productRefGroup = 8D5E2CD629E54090001E4414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5E2CD429E54090001E4414 /* deniz_testNetmera */,
+				8D94710A29EFFD1800F24411 /* myNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5E2CD329E54090001E4414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5E2CE529E54091001E4414 /* LaunchScreen.storyboard in Resources */,
+				8D5E2CE229E54091001E4414 /* Assets.xcassets in Resources */,
+				8D5E2CE029E54090001E4414 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D94710929EFFD1800F24411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73D8A288FD6B1C4AC4E4065C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE9D235EF7F1C4F94A41DBB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-deniz_testNetmera/Pods-deniz_testNetmera-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-deniz_testNetmera/Pods-deniz_testNetmera-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-deniz_testNetmera/Pods-deniz_testNetmera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E11AF08479341F23328705C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-deniz_testNetmera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5E2CD129E54090001E4414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5E2CDD29E54090001E4414 /* ViewController.swift in Sources */,
+				8D5E2CD929E54090001E4414 /* AppDelegate.swift in Sources */,
+				8D5E2CDB29E54090001E4414 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D94710729EFFD1800F24411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D94710E29EFFD1800F24411 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D94711129EFFD1800F24411 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D94710A29EFFD1800F24411 /* myNotificationServiceExtension */;
+			targetProxy = 8D94711029EFFD1800F24411 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D5E2CDE29E54090001E4414 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D5E2CDF29E54090001E4414 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D5E2CE329E54091001E4414 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D5E2CE429E54091001E4414 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D5E2CE729E54091001E4414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D5E2CE829E54091001E4414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D5E2CEA29E54091001E4414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FCE04F9CE330089C8F3B36E /* Pods-deniz_testNetmera.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = deniz_testNetmera/deniz_testNetmera.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95N24W2PH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = deniz_testNetmera/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "netmera.deniz-testNetmera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D5E2CEB29E54091001E4414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA3A5C15E68CC37035E9CF8 /* Pods-deniz_testNetmera.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = deniz_testNetmera/deniz_testNetmera.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95N24W2PH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = deniz_testNetmera/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "netmera.deniz-testNetmera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D94711429EFFD1800F24411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F99F92AB5D4B49878CBDC91 /* Pods-myNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95N24W2PH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = myNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "netmera.deniz-testNetmera.myNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D94711529EFFD1800F24411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F367A56987C3AFE2423A336 /* Pods-myNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95N24W2PH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = myNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "netmera.deniz-testNetmera.myNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D5E2CD029E54090001E4414 /* Build configuration list for PBXProject "deniz_testNetmera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5E2CE729E54091001E4414 /* Debug */,
+				8D5E2CE829E54091001E4414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D5E2CE929E54091001E4414 /* Build configuration list for PBXNativeTarget "deniz_testNetmera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5E2CEA29E54091001E4414 /* Debug */,
+				8D5E2CEB29E54091001E4414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D94711629EFFD1800F24411 /* Build configuration list for PBXNativeTarget "myNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D94711429EFFD1800F24411 /* Debug */,
+				8D94711529EFFD1800F24411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D5E2CCD29E54090001E4414 /* Project object */;
+}

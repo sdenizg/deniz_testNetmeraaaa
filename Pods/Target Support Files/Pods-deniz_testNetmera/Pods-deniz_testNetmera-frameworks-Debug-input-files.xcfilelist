@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-deniz_testNetmera/Pods-deniz_testNetmera-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework
+${BUILT_PRODUCTS_DIR}/MMWormhole/MMWormhole.framework
+${BUILT_PRODUCTS_DIR}/UICKeyChainStore/UICKeyChainStore.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Netmera/AdIdSupport/NetmeraAdId.framework/NetmeraAdId
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Netmera/Application/Netmera.framework/Netmera
+${PODS_XCFRAMEWORKS_BUILD_DIR}/NetmeraCore/NetmeraCore.framework/NetmeraCore
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Netmera/NotificationServiceExtension/NetmeraNotificationServiceExtension.framework/NetmeraNotificationServiceExtension

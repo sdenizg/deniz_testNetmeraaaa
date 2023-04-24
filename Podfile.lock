@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - MMWormhole (2.0.0):
+    - MMWormhole/Core (= 2.0.0)
+  - MMWormhole/Core (2.0.0)
+  - Netmera (3.15.2):
+    - Netmera/NetmeraWithAdId (= 3.15.2)
+  - Netmera/AdIdSupport (3.15.2)
+  - Netmera/Application (3.15.2):
+    - AFNetworking/NSURLSession (>= 3.1.0)
+    - FMDB
+    - MMWormhole (~> 2.0.0)
+    - NetmeraCore (= 3.15.2)
+    - UICKeyChainStore (~> 2.0)
+  - Netmera/NetmeraWithAdId (3.15.2):
+    - Netmera/AdIdSupport
+    - Netmera/Application
+  - Netmera/NotificationServiceExtension (3.15.2):
+    - NetmeraCore (= 3.15.2)
+  - NetmeraCore (3.15.2)
+  - UICKeyChainStore (2.2.1)
+
+DEPENDENCIES:
+  - Netmera
+  - Netmera/NotificationServiceExtension
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - FMDB
+    - MMWormhole
+    - Netmera
+    - NetmeraCore
+    - UICKeyChainStore
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MMWormhole: 0cd3fd35a9118b2e2d762b499f54eeaace0be791
+  Netmera: bb90e728b8be98cbbecc2411fa6fe6b1474a5c77
+  NetmeraCore: 8e2db1e1da237bc4071a8be3baea69e8b1a9a102
+  UICKeyChainStore: ba3bff2c762b12db1e516f395c837dd25298b05e
+
+PODFILE CHECKSUM: 11b2f37e614434c8ef4f520966c0736a1155a817
+
+COCOAPODS: 1.12.0
